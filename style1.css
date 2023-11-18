@@ -1,0 +1,70 @@
+.img {
+    height: 200px;
+    width: 200px;
+}
+
+.link {
+    color: red;
+    text-decoration: none;
+    
+}
+
+a:hover {
+    text-decoration: underline;
+    color: purple ;
+}
+
+/* body {
+    background-color: bisque;
+} */
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family:Arial, Helvetica, sans-serif;
+}
+h3 {
+    font-size: 45px;
+}
+.box {
+    background: azure;
+    /* width: 300px; */
+    font-size: 30px;
+    line-height: 0%;
+    /* padding-left:10px;  */
+    color: green;
+}
+
+.img_asm {
+    height: 230px;
+    width: 230px;
+}
+
+p {
+    font-size: 30px;
+}
+
+@media screen and (prefers-color-scheme: dark) {
+    body {
+      background: bisque;
+      color: black;
+        }
+  }
+@media screen and (prefers-color-scheme: light) {
+    body {
+        background: bisque;
+        color: black;
+    }
+}
+.theme-dark {
+    background: rgb(150, 135, 135);
+    color: white;
+  }
+  
+.theme-light {
+    background: bisque;
+    color: black;
+  }
+

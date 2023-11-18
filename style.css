@@ -1,0 +1,66 @@
+.img {
+    height: 200px;
+    width: 200px;
+}
+
+.link {
+    color: red;
+    text-decoration: none;
+    
+}
+
+a:hover {
+    text-decoration: underline;
+    color: purple ;
+}
+
+body {
+
+    height: 1000px;
+    width: 1000px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family:Arial, Helvetica, sans-serif;
+}
+h3 {
+    font-size: 45px;
+}
+.box {
+    background: azure;
+    /* width: 300px; */
+    font-size: 30px;
+    line-height: 0%;
+    /* padding-left:10px;  */
+}
+
+.img_asm {
+    height: 230px;
+    width: 230px;
+}
+
+p {
+    font-size: 30px;
+}
+
+@media screen and (prefers-color-scheme: dark) {
+    body {
+      background: black;
+      color: white;
+        }
+  }
+
+.theme-dark {
+    background: rgb(150, 135, 135);
+    color: white;
+  }
+  
+.theme-light {
+    background: bisque;
+    color: black;
+  }
+

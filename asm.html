@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>HelloWorld_ASM</title>
+    <link rel="stylesheet" href="style1.css">
+  </head>
+  <body>
+    <header>
+        <h1>"Hello World" - на языке ASM</h1>
+        <p id="select" onclick="darkLight()" style="cursor: help;">Включить тёмную тему</p>
+    </header>
+    <main>
+      <section>
+        <img  class="img_asm" src="https://avatars.dzeninfra.ru/get-zen_doc/2815454/pub_633fc3995a108b0b0c8c81cf_633fc3e0286355338af7722a/scale_1200" alt="">
+      
+      <pre><p><span style='padding-left:10px;' class="box">"Hello World" - на языке ASM:
+        1  .model tiny                 
+        2  .code                       
+        3  ORG 100h                    
+        4  begin:	               
+        5    MOV  AH,  9          ;    
+        6    MOV  DX,  OFFSET Msg ;    
+        7    INT  21h             ;    
+        8  RET                  ;      
+        9 Msg DB 'Hello, World!!!$'   ;
+        10 END begin                   </span></pre></p>
+      </section>
+      <hr>
+      <section>
+        <h3>О языке ASM</h3>
+        <p>Язык ассемблера — представление команд процессора в виде, доступном для чтения человеком. Язык ассемблера считается языком программирования низкого уровня,
+           в противовес высокоуровневым языкам, не привязанным к конкретной реализации вычислительной системы. Программы, написанные на языке ассемблера однозначным образом переводятся в инструкции конкретного процессора и
+            в большинстве случаев не могут быть перенесены без значительных изменений для запуска на машине с другой системой команд. Ассемблером называется программа, преобразующая код на языке ассемблера в машинный код;
+           программа, выполняющая обратную задачу, называется дизассемблером.</p>
+      </section>
+    </main>
+    <hr>
+    <footer>
+      <h1><b>Всем спасибо! Принимаю предложенния тем для новых проектов (мой Discord): kostytarass</b></h1>
+    </footer>
+  </body>
+  <script type="text/javascript" src="dark.js"></script>
