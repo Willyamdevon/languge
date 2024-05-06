@@ -23,4 +23,4 @@ function darkLight() {
 	
 	dark = !dark;
 	
-}
+} 

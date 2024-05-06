@@ -14,17 +14,22 @@
       <section>
         <img  class="img_asm" src="https://avatars.dzeninfra.ru/get-zen_doc/2815454/pub_633fc3995a108b0b0c8c81cf_633fc3e0286355338af7722a/scale_1200" alt="">
       
-      <pre><p><span style='padding-left:10px;' class="box">"Hello World" - на языке ASM:
-        1  .model tiny                 
-        2  .code                       
-        3  ORG 100h                    
-        4  begin:	               
-        5    MOV  AH,  9          ;    
-        6    MOV  DX,  OFFSET Msg ;    
-        7    INT  21h             ;    
-        8  RET                  ;      
-        9 Msg DB 'Hello, World!!!$'   ;
-        10 END begin                   </span></pre></p>
+        <div class="box">
+          <h5>"Hello World" - на языке ASM:</h5>
+            <ol>
+              <li>.model tiny</li>
+              <li>.code</li>
+              <li>ORG 100h</li>
+              <li>begin:</li>
+              <li>MOV  AH,  9;</li>
+              <li>MOV  DX,  OFFSET Msg ; </li>
+              <li>INT  21h;</li>
+              <li>RET;</li>
+              <li>Msg DB 'Hello, World!!!$';</li>
+              <li>END begin </li>
+            </ol>
+        </div>
+
       </section>
       <hr>
       <section>
@@ -37,7 +42,7 @@
     </main>
     <hr>
     <footer>
-      <h1><b>Всем спасибо! Принимаю предложенния тем для новых проектов (мой Discord): kostytarass</b></h1>
+      <h1><b>Всем спасибо! Принимаю предложенния тем для новых проектов (мой Discord): kosty_py</b></h1>
     </footer>
   </body>
   <script type="text/javascript" src="dark.js"></script>
